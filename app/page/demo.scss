@@ -1,0 +1,15 @@
+.counter{
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+.title{
+  cursor: pointer;
+}
+
+.listWrap{
+  height:0;
+  overflow: hidden;
+  transition: 0.5s;
+}

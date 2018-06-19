@@ -1,0 +1,44 @@
+.components-musiclistitem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  .delete{
+    width: 41px;
+    height: 41px;
+    background: url("../../static/images/shut.png") no-repeat center;
+    cursor: pointer;
+  }
+
+  .delete:hover{
+    animation: deleteAni 10s linear forwards;
+  }
+
+  @keyframes deleteAni {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(3600deg);
+    }
+  }
+
+  .music-cont{
+    height: 50px;
+    width: 100%;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+  }
+  .music-cont:hover{
+    background: #dddddd;
+    color: green;
+  }
+
+  .music-cont.focus{
+    background: #dddddd;
+    color: green;
+  }
+}

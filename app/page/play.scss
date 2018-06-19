@@ -1,0 +1,83 @@
+.play-page{
+  width: 700px;
+  margin: 120px auto 0;
+  display: flex;
+  justify-content: space-between;
+  .left-page{
+    .caption{
+      font-size: 16px;
+      color: rgb(47, 152, 66);
+      cursor: pointer;
+    }
+    .mt20{
+      .music-title{
+        font-size: 20px;
+        color: #000;
+      }
+      .music-artist{
+        font-size: 16px;
+        color: #ddd;
+      }
+      .left-title{
+        font-size: 16px;
+        color: #ddd;
+      }
+
+      .volume-wrapper{
+
+      }
+
+
+    }
+
+    .mt35{
+      cursor: pointer;
+      .music-controler{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        .prev{
+          width: 14px;
+          height: 25px;
+          background: url("../../static/images/prev.png") no-repeat;
+          display: inline-block;
+        }
+        .play{
+          width: 38px;
+          height: 38px;
+          background: url("../../static/images/on.png") no-repeat;
+          display: inline-block;
+          margin: 0 10px;
+        }
+
+        .pause{
+          width: 38px;
+          height: 38px;
+          display: inline-block;
+          margin: 0 10px;
+          background: url("../../static/images/off.png") no-repeat;
+        }
+        .next{
+          width: 14px;
+          height: 25px;
+          background: url("../../static/images/next.png") no-repeat;
+          display:  inline-block;
+        }
+      }
+
+    }
+  }
+
+  .right-page{
+    .cover-page{
+      width: 212px;
+      height: 124px;
+      img{
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+}

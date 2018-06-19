@@ -1,0 +1,30 @@
+.head-component{
+  .title{
+    text-align: center;
+  }
+  .input-song{
+    margin: 0 10px 0 80px;
+    border: 2px solid #000;
+    height: 18px;
+  }
+  .input-song:hover{
+    border: 2px solid green;
+  }
+  .input-singer{
+    margin-right: 10px;
+    border: 2px solid #000;
+    height: 18px;
+  }
+  .input-singer:hover{
+    border: 2px solid green;
+  }
+  .add-music-btn{
+    height: 22px;
+    border: 2px solid #000;
+    cursor: pointer;
+    color: #000
+  }
+  .add-music-btn:hover{
+    color: green
+  }
+}

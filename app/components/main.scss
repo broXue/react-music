@@ -1,0 +1,25 @@
+.main-component{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  table{
+    width: 100%;
+    thead{
+      background: #cccccc;
+    }
+    tbody{
+      tr{
+        background: #ffffff;
+        td{
+          text-align: center;
+        }
+      }
+
+      tr.selected{
+        background: lightyellow;
+      }
+      tr.liked{
+        background: lightpink;
+      }
+    }
+  }
+}
